@@ -29,9 +29,7 @@ import java.util.regex.Pattern;
 
 public class Flight {
 
-	private int idJM;
-	
-    private String flightNumber;
+	private String flightNumber;
     private int seats;
     private Set<Passenger> passengers = new HashSet<>();
 
